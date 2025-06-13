@@ -13,9 +13,9 @@ const Hero = () => {
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Background Elements */}
-      <div className="absolute inset-0 bg-gradient-to-br from-background via-slate-900 to-background"></div>
+      {/* <div className="absolute inset-0 bg-gradient-to-br from-background via-slate-900 to-background"></div>
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-neon-blue/20 via-transparent to-transparent"></div>
-      
+       */}
       {/* Floating Elements */}
       <div className="absolute top-20 left-10 w-4 h-4 bg-neon-blue rounded-full animate-float"></div>
       <div className="absolute top-40 right-20 w-6 h-6 bg-electric-purple rounded-full animate-float" style={{ animationDelay: '1s' }}></div>

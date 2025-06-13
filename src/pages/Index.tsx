@@ -1,4 +1,4 @@
-
+import SplineBackground from '@/components/ui/SplineBackground';
 import Navigation from '@/components/Navigation';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
@@ -9,7 +9,11 @@ import Footer from '@/components/Footer';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="relative min-h-screen text-foreground">
+      {/* 3D Background */}
+      <SplineBackground />
+
+      {/* Page Content */}
       <Navigation />
       <Hero />
       <About />
